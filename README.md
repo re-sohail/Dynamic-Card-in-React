@@ -43,9 +43,9 @@ This project creates a dynamic card generator in React, allowing you to use a si
 - `src/`
   - `Components/`
     - `ListPoint/`
-      - `Card.jsx`: The main card component that renders dynamic data from JSON.
+      - `Card.jsx`: The main card component that renders dynamic data from `Data.jsx` file.
   - `Data/`
-    - `Data.json`: JSON file containing dynamic data for the cards.
+    - `Data.jsx`: File containing dynamic data for the cards.
   - `App.jsx`: The main application file that utilizes the `Card` component.
 
 ### Dependencies
@@ -55,9 +55,9 @@ This project creates a dynamic card generator in React, allowing you to use a si
 
 ### How it Works
 
-1. The `Card.jsx` component imports dynamic data from the `Data.json` file using the `Data` module.
+1. The `Card.jsx` component imports dynamic data from the `Data.jsx` file using the `Data` module.
 
-2. The component utilizes the `map()` method to iterate over the data and generate a card for each item in the JSON array.
+2. The component utilizes the `map()` method to iterate over the data and generate a card for each item in the `Data.jsx` file array.
 
 3. The `App.jsx` file imports and utilizes the `Card` component, rendering it within the main application.
 
