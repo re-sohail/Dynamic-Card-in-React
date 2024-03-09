@@ -19,7 +19,7 @@ This project creates a dynamic card generator in React, allowing you to use a si
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/re-sohail/Dynamic-Card-in-React
    ```
 
 2. Install dependencies:
